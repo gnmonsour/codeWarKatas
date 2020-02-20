@@ -3,7 +3,6 @@
     - reverse words where length >= 5                                                                                                                                                                                                                              
 - spaces are present when two or more words
 
-
 */
 
 
@@ -16,8 +15,7 @@ function spinWords(str){
 }
 
 
-
-
+// in file tests
 console.log(spinWords("Welcome") == "emocleW");
 console.log(spinWords("Hey fellow warriors") == "Hey wollef sroirraw");
 console.log(spinWords("This is a test") == "This is a test");
